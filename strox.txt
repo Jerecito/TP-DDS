@@ -1,13 +1,19 @@
-<<<<<<< HEAD
 kkkk
 
  mod jere1
 kjdfhasklj dkaskfnkj   cosa cambiada
  aksdnaskdlj'aksdnaskdljasdjkas
  aksdas;kjdfhaskljaksdjaskdj
+ aslkdasl'dkaskfnkjlsjdfhasklj dkaskfnkj   cosa cambiada
+ aksdnaskdlj'aksdnaskdljasdjkas
+ aksdas;kjdfhaskljaksdjaskdj
  aslkdasl'dkaskfnkjls
- 
-<<<<<<< HEAD
->>>>>>> faa4faca768365e17a78cb8296cd44c142ec0829
-=======
->>>>>>> 23c22710a34e2724bb92e53f0fb7b1a11fb4333b
+ conflicto creado
+segunda linea del conflicto 
+        4654654 46  54  
+        54654
+        65464
+        4as
+        dasdsad
+asdasdasd
+asdasdasd
