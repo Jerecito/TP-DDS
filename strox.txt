@@ -7,4 +7,7 @@ kjdfhasklj dkaskfnkj   cosa cambiada
  aksdas;kjdfhaskljaksdjaskdj
  aslkdasl'dkaskfnkjls
  
+<<<<<<< HEAD
 >>>>>>> faa4faca768365e17a78cb8296cd44c142ec0829
+=======
+>>>>>>> 23c22710a34e2724bb92e53f0fb7b1a11fb4333b
