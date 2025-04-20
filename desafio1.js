@@ -7,4 +7,13 @@ function generar_num(){
     return num_random
 }
 
-copnsole.log (generar_num())
+///punto 1
+let positivos = 0
+let negativos = 0
+for ( let i of num_random){
+    if (i > 0){ positivos++};
+    if (i < 0){negativos ++} 
+}
+
+console.log('La cantidad de positivos es:  ${positivos}');
+console.log('la cantidad de negativos es: ${negativos}')
