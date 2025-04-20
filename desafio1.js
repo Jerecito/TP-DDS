@@ -28,3 +28,21 @@ for (let i of numerosAleatorios){
 console.log(`la cantidad de números con esas caracteristicas son: ${contador}`)
 
 // punto 3
+let contadores = Array(10).fill(0)
+for ( i of numerosAleatorios){
+    numstr = Math.abs(i).toString();
+    
+    if (numstr.length >= 2){let anteultimo = parseInt(numstr[numstr.length - 2]);
+        contadores[anteultimo]++;
+    }
+}
+console.log(contadores)
+// punto 4
+let menorValor = Infinity
+let posicionMenor = -1;
+
+for ( let i = 0; i < numerosAleatorios.length; i++ ){let comparador = numerosAleatorios[i];
+    if (comparador < menorValor){(menorValor = comparador) && (posicionMenor = i + 1) };
+    }
+
+console.log(menorValor, posicionMenor)
