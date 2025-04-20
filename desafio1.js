@@ -8,6 +8,7 @@ function generar_num(){
 }
 
 ///punto 1
+const numerosAleatorios = generar_num()
 let positivos = 0
 let negativos = 0
 for ( let i of num_random){
