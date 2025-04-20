@@ -46,3 +46,21 @@ for ( let i = 0; i < numerosAleatorios.length; i++ ){let comparador = numerosAle
     }
 
 console.log(menorValor, posicionMenor)
+
+//punto 5
+
+//Cantidad de números cuyo signo sea igual al del anterior, evidentemente el primer elemento del conjunto no puede ser contabilizado 
+// porque no tiene anterior, es decir el máximo posible es la cantidad de elementos generados menos 1.
+
+let anterior = 0;
+contador = 0
+for (i of numerosAleatorios){if ((i > 0 && anterior >0) || (i < 0 && anterior < 0)){contador++}; anterior = i }
+console.log(contador)
+
+// puntop 6
+//Promedio entero (redondeado con Math.round) de todos los números que contengan exactamente 6 dígitos.
+let sum = 0
+let cant = 0
+for (let i of numerosAleatorios){istr = Math.abs(i).toString(); if (istr.length === 6){sum += i; cant ++}}
+
+console.log(Math.round((sum / cant )))
