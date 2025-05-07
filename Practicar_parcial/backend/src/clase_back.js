@@ -6,4 +6,6 @@ app.use(express.json());
 const corsOptions = {origin: '*',};
 app.use(cors(corsOptions));
 
-export default app
+//definir entrada a endpoints de nuestros usuarios
+app.use("/usuarios", usuariosRouter.router) 
+export default app 

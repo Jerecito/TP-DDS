@@ -1,6 +1,6 @@
 import { Sequelize} from "sequelize";
-import { tareasModels } from "../models/Tareas";
-import { usuariomodels } from "../models/Usuarios";
+import { tareasModels } from "../models/Tareas.js";
+import { usuariomodels } from "../models/Usuarios.js";
 
 
 //cadena de conexión + bd
@@ -15,3 +15,5 @@ sequelize.define("Usuarios", usuariomodels.usuarioatributos, usuariomodels.usuar
 
 //crear fks
 sequelize.models.Tareas.belongsTo(sequelize.models.Usuarios, {foreignKey: "UsuarioId"})
+
+export default sequelize 
